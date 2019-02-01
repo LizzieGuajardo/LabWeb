@@ -1,0 +1,89 @@
+body{
+	background-color: #fff9f9;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: left;
+	padding: 20px;
+	margin: 0px 5%;
+}
+h1 {
+	margin: 10px 0px 0px 0px;
+
+}	
+h2 {
+	margin: 0px;
+	padding-left: 10px;
+	border-style: solid;
+	border-width: 0px 0px 0px 5px;
+	border-left-color: #ffdab9;
+}
+h4{
+	margin: 0px;
+	font-style: italic;
+	font-size: 15px;
+}
+li {
+	font-family: 'Quicksand', sans-serif;
+  	color: #ffdab9; /* color de viñeta */
+}
+li p {
+	margin: 0px;
+  	color: black; /* text color */
+}
+
+
+.header {
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-align: center;
+	border-radius: 30px;
+    height: 100px; 
+    margin: 0px;
+	padding: 20px;
+    background: linear-gradient(to top, #ffdab9 0%, #DCDCDC 70%, transparent 100%)
+}
+.foto {
+	border-radius: 50%;
+	width: 15%;
+	border: solid;
+	border-width: 8px;
+	border-color: #fff9f9;
+}
+
+.column{
+	float:left;
+	width: 50%;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+#correo{
+	font-style: italic;
+	padding-top: 15px;
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+#tel{
+	font-style: italic;
+	padding-top: 15px;
+	float: right;
+	width: 33%;
+	text-align: right;
+}
+
+.infoBlock {
+	padding: 25px 20px,0px,20px;
+}
+
+.derecha {
+	padding-left: 20%;
+}
+
+.icon{
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
